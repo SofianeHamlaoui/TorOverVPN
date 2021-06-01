@@ -28,3 +28,4 @@ So, here we'll use a docker image with Tor installed on it. We
 
 On docker I'm going to use alpine instead of Debian on docker for it's light weight.
 
+starting with tor config file `torrc`
