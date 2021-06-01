@@ -131,5 +131,12 @@ and for setting the rules, we will use this script :
 
 Okey, now let's do this together ! 
 
-- 1 connect to the vps ( don't forget to allow traffic on the used ports)
-- 
+- 1 - connect to the vps ( don't forget to allow traffic on the used ports)
+- 2 - install all the needed packages
+```
+sudo apt update && sudo apt install openvpn tor
+``` 
+- 2 - change the `torrc` file
+ - ```
+
+    ```
