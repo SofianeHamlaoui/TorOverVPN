@@ -142,7 +142,7 @@ Okey, now let's do this together !
 
 - 4 - Using the openvpn script 
 
-
+![](https://i.imgur.com/ZZqmuKr.png)
 
 
 than save the `.ovpn` file
