@@ -50,3 +50,4 @@ USER tor
 ENTRYPOINT ["tor"]
 CMD ["-f", "/etc/tor/torrc"]
 ```
+![Dockerfile]()
