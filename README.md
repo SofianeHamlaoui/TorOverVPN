@@ -32,10 +32,10 @@ On docker I'm going to use alpine instead of Debian on docker for it's light wei
 
 starting with tor config file `torrc` / (`/etc/tor/torrc`)
 ```
-  VirtualAddrNetwork 10.192.0.0/10
-  AutomapHostsOnResolve 1
-  DNSPort 10.8.0.1:53530
-  TransPort 10.8.0.1:1962
+VirtualAddrNetwork 0.0.0.0/10
+AutomapHostsOnResolve 1
+DNSPort 0.0.0.0:53530
+SocksPort 0.0.0.0:9050
 ```
 > you can change port 1962 to your own
 
