@@ -71,5 +71,11 @@ Check the image `docker image ls | grep sofiane/tor
 
 Start by running the docker image `docker run --rm --detach --name tor --publish 1962:1962 sofiane/tor`
 
-! [](https://i.imgur.com/RNdupGg.png)
+![](https://i.imgur.com/Ub5Rljr.png)
 
+Now let's test it out!
+
+* Without Proxy : My Real IP 
+![noproxy](https://i.imgur.com/MHLZKzv.png)
+* With Proxy : a Tor exit
+![proxy](https://i.imgur.com/po3SHo2.png)
