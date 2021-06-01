@@ -61,4 +61,6 @@ Now let's build and image : `docker build -t sofiane/tor .`
 
 ![Built](https://i.imgur.com/LNLGq6c.png)
 
-Check the image `docker image ls | grep sofiane/torè
+Check the image `docker image ls | grep sofiane/tor
+
+![check](https://i.imgur.com/FAmPRFo.png)
