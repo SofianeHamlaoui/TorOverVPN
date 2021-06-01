@@ -115,7 +115,7 @@ Final step, is to create your own openvpn profile, to do that I suggest you this
 ![](https://i.imgur.com/Wsqahwg.png)
 
 ```
-$ curl -O https://raw.githubusercontent.com/$angristan/openvpn-install/master/openvpn-install.sh
+$ curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 $ chmod +x openvpn-install.sh
 ```
 
@@ -140,4 +140,9 @@ Okey, now let's do this together !
     ```
     ![](https://i.imgur.com/6hMsYXP.png)
 
-- 4 - Using the openvpn script
+- 4 - Using the openvpn script 
+
+
+
+
+than save the `.ovpn` file
