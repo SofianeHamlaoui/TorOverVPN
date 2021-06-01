@@ -39,4 +39,14 @@ starting with tor config file `torrc` / (`/etc/tor/torrc`)
 
 ![Config](https://i.imgur.com/7rS1rnw.png)
 
+and now the `Dockerfile`
 
+```
+FROM alpine:latest
+RUN apk update && apk add tor
+COPY torrc /etc/tor/torrc
+RUN chown -R tor /etc/tor
+USER tor
+ENTRYPOINT ["tor"]
+CMD ["-f", "/etc/tor/torrc"]
+```
