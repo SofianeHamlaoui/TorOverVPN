@@ -88,6 +88,10 @@ You can check with tor website too :
 
 ## Using the VPN
 
+We won't use the VPN on a docker, because first we need to create the `tun` device on the container which is a kill for the Security.
+
+So to setup as a vpn, we'll use a Linux VPS ( Debian )
+
 For the VPN, you will always use the same Tor config file!
 
 But, you'll need to make some changes to the iptables rules.
