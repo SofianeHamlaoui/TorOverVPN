@@ -20,6 +20,11 @@ After a Cyber Security Awareness Training for company X, I thought about sharing
 ![stats](https://metrics.torproject.org/bandwidth-flags.png?start=2021-03-03&end=2021-06-01)
 
 
+
+## How VPN over Tor works ? 
+
+![](https://i.imgur.com/rAKyYj9.png)
+
 ## Starting with docker 
 
 So, here we'll use a docker image with Tor installed on it. We
