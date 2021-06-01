@@ -1,4 +1,4 @@
-# Tor Script
+# Tor Docker Proxy & Tor VPN
 
 After a Cyber Security Awareness Training for company X, I thought about sharing the idea and even the script used to make it easier and available for everyone.
 
@@ -159,3 +159,5 @@ Okey, now let's do this together !
 Congrats ! now you can surf the net using a VPN through TOR connection.
 
 ![](https://i.imgur.com/xwsgMtS.png)
+
+
