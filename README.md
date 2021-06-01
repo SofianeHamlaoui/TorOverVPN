@@ -52,6 +52,10 @@ CMD ["-f", "/etc/tor/torrc"]
 ```
 ![Dockerfile](https://i.imgur.com/PbplMVn.png)
 
+* The containing of the folder should be :
+
+
+
 
 Now let's build and image : `docker build -t sofiane/tor .`
 
