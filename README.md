@@ -69,3 +69,6 @@ Check the image `docker image ls | grep sofiane/tor
 
 ## Using the proxy
 
+Start by running the docker image `docker run --rm --detach --name tor --publish 1962:1962 sofiane/tor`
+
+! [](https://i.imgur.com/RNdupGg.png)
