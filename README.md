@@ -154,3 +154,6 @@ Okey, now let's do this together !
     $ curl -O https://raw.githubusercontent.com/SofianeHamlaoui/Tor-scripts/main/vpn.sh && chmod +x vpn.sh
     $ sudo ./vpn.sh
     ```
+    ![](https://i.imgur.com/QMwyU30.png)
+
+Congrats ! now you can surf the net using a VPN through TOR connection
