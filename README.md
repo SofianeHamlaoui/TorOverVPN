@@ -12,3 +12,6 @@ After a Cyber Security Awareness Training for company X, I thought about sharing
 
 * By Country : 
 ![stats](https://i.imgur.com/suySqtJ.png)
+
+* By Delays : 
+![stats](https://i.imgur.com/suySqtJ.png)
