@@ -144,5 +144,4 @@ Okey, now let's do this together !
 
 ![](https://i.imgur.com/ZZqmuKr.png)
 
-
-than save the `.ovpn` file
+and save the `.ovpn` file
