@@ -146,10 +146,10 @@ Okey, now let's do this together !
 
     and save the `.ovpn` file
 
-    - 5 - Enabling OpenVpn & Tor services :
-    ![](https://i.imgur.com/P4b479p.png)
+- 5 - Enabling OpenVpn & Tor services :
+![](https://i.imgur.com/P4b479p.png)
 
-- 5 - Adding the rules
+- 6 - Adding the rules
     ```
     $ curl -O https://raw.githubusercontent.com/SofianeHamlaoui/Tor-scripts/main/vpn.sh && chmod +x vpn.sh
     $ 
