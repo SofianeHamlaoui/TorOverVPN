@@ -50,4 +50,4 @@ USER tor
 ENTRYPOINT ["tor"]
 CMD ["-f", "/etc/tor/torrc"]
 ```
-![Dockerfile]()
+![Dockerfile](https://i.imgur.com/PbplMVn.png)
