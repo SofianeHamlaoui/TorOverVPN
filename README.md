@@ -28,7 +28,7 @@ So, here we'll use a docker image with Tor installed on it. We
 
 On docker I'm going to use alpine instead of Debian on docker for it's light weight.
 
-starting with tor config file `torrc`/(`/etc/tor/torrc`)
+starting with tor config file `torrc` / (`/etc/tor/torrc`)
 ```
   VirtualAddrNetwork 10.192.0.0/10
   AutomapHostsOnResolve 1
@@ -37,4 +37,6 @@ starting with tor config file `torrc`/(`/etc/tor/torrc`)
 ```
 > you can change port 1962 to your own
 
-![Config](https://i.imgur.com/avgo0AP.png)
+![Config](https://i.imgur.com/7rS1rnw.png)
+
+
