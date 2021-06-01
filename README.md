@@ -36,4 +36,5 @@ starting with tor config file `torrc`/(`/etc/tor/torrc`)
   TransPort 10.8.0.1:1962
 ```
 > you can change port 1962 to your own
+
 ![Config](https://i.imgur.com/avgo0AP.png)
