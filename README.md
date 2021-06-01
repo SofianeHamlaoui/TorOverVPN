@@ -15,3 +15,6 @@ After a Cyber Security Awareness Training for company X, I thought about sharing
 
 * By Relays : 
 ![stats](https://metrics.torproject.org/networksize.png?start=2021-03-03&end=2021-06-01)
+
+* By Relays : 
+![stats](https://metrics.torproject.org/bandwidth-flags.png?start=2021-03-03&end=2021-06-01)
