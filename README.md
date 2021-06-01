@@ -39,7 +39,7 @@ starting with tor config file `torrc` / (`/etc/tor/torrc`)
 ```
 > you can change port 1962 to your own
 
-![Config](https://i.imgur.com/7rS1rnw.png)
+![Config](https://i.imgur.com/wewtou6.png)
 
 and now the `Dockerfile`
 
@@ -72,3 +72,4 @@ Check the image `docker image ls | grep sofiane/tor
 Start by running the docker image `docker run --rm --detach --name tor --publish 1962:1962 sofiane/tor`
 
 ! [](https://i.imgur.com/RNdupGg.png)
+
