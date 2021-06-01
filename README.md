@@ -107,5 +107,8 @@ First of all, add these 2 Environment variables
 ```
 $ export IPTABLES=/sbin/iptables
 $ export OVPN=tun0
+$ export VPN_IP=$(ip r | grep "tun" | awk '{print $9}')
 ```
+And the iptables rules :
 
+![](https://i.imgur.com/VYDJ15N.png)
