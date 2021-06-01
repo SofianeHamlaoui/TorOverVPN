@@ -66,3 +66,6 @@ Now let's build and image : `docker build -t sofiane/tor .`
 Check the image `docker image ls | grep sofiane/tor
 
 ![check](https://i.imgur.com/FAmPRFo.png)
+
+## Using the proxy
+
