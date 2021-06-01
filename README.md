@@ -55,3 +55,5 @@ CMD ["-f", "/etc/tor/torrc"]
 
 Now let's build and image : `docker build -t sofiane/tor .`
 
+![Built](https://i.imgur.com/LNLGq6c.png)
+
