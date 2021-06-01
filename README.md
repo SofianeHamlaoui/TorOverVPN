@@ -124,6 +124,6 @@ and run it using
 $ ./openvpn-install.sh
 ```
 
-and for setuping the rules, we will use this script :
+and for setting the rules, we will use this script :
 
 ![](https://i.imgur.com/MvnbLzC.png)
