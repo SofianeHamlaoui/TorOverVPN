@@ -21,7 +21,7 @@ After a Cyber Security Awareness Training for company X, I thought about sharing
 
 
 
-## How VPN over TOR works ? 
+## How TOR over VPN works ? 
 
 ![](https://i.imgur.com/rAKyYj9.png)
 
