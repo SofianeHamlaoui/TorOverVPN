@@ -123,7 +123,6 @@ and run it using
 ```
 $ ./openvpn-install.sh
 ```
-than save the `.ovpn` file
 
 and for setting the rules, we will use this script :
 
