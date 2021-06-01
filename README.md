@@ -4,6 +4,11 @@ After a Cyber Security Awareness Training for company X, I thought about sharing
 
 ![header](header.png)
 
-### Before doign anything, you can check here some Tor uses/users statistics 05/2021
+### Before doign anything, you can check here some Tor uses/users statistics 05/2021 
 
+
+* By Users : 
 ![stats](https://metrics.torproject.org/userstats-relay-country.png?start=2021-03-03&end=2021-06-01&country=all&events=off)
+
+* By Country : 
+![stats](https://i.imgur.com/suySqtJ.png)
