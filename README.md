@@ -44,7 +44,7 @@ starting with tor config file `torrc` / (`/etc/tor/torrc`)
 and now the `Dockerfile`
 
 ```
-FROM alpine:latest
+FROM debian:latest
 RUN apk update && apk add tor
 COPY torrc /etc/tor/torrc
 RUN chown -R tor /etc/tor
@@ -52,7 +52,7 @@ USER tor
 ENTRYPOINT ["tor"]
 CMD ["-f", "/etc/tor/torrc"]
 ```
-![Dockerfile](https://i.imgur.com/PbplMVn.png)
+![Dockerfile](https://i.imgur.com/oFYwsoP.png)
 
 * The containing of the folder should be :
 
@@ -94,8 +94,8 @@ But, you'll need to make some changes to the iptables rules.
 
 > these rules are for the transparently, what we call `Transparent Routing Traffic Through Tor`
 
-    Check Tor website explaining this in details : [TransparentProxy
-    ](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TransparentProxy#WARNING)
+> Check Tor website explaining this in details : [TransparentProxy
+](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TransparentProxy#WARNING)
 
 
 First of all, add these 2 Environment variables
@@ -104,4 +104,6 @@ First of all, add these 2 Environment variables
 $ export IPTABLES=/sbin/iptables
 $ export OVPN=tun0
 ```
+
+
 
