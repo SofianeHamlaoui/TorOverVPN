@@ -92,10 +92,10 @@ For the VPN, you will always use the same Tor config file!
 
 But, you'll need to make some changes to the iptables rules.
 
-these rules are for the transparently, what we call `Transparent Routing Traffic Through Tor`
+> these rules are for the transparently, what we call `Transparent Routing Traffic Through Tor`
 
-Check Tor website explaining this in details : [TransparentProxy
-](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TransparentProxy#WARNING)
+    Check Tor website explaining this in details : [TransparentProxy
+    ](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TransparentProxy#WARNING)
 
 
 First of all, add these 2 Environment variables
