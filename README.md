@@ -133,10 +133,6 @@ Okey, now let's do this together !
 
 - 1 - connect to the vps ( don't forget to allow traffic on the used ports)
 - 2 - install all the needed packages
-```
-$ sudo apt update && sudo apt install openvpn tor
-``` 
+![](https://i.imgur.com/wdzg1TG.png)
 - 2 - change the `torrc` file
- - ```
-
-    ```
+![]()
