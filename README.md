@@ -86,7 +86,7 @@ You can check with tor website too :
 ![](https://i.imgur.com/NQ3TeW9.png)
 
 
-## Using the VPN
+## Configuring the VPN
 
 We won't use the VPN on a docker, because first we need to create the `tun` device on the container which is a kill for the Security.
 
@@ -107,3 +107,23 @@ First of all, add these 3 Environment variables
 And the iptables rules :
 
 ![](https://i.imgur.com/VYDJ15N.png)
+
+don't forget that you need `openvpn`, `iptables` and `tor` installed on your machine.
+
+Final step, is to create your own openvpn profile, to do that I suggest you this small script that I love and use often : 
+
+![](https://i.imgur.com/Wsqahwg.png)
+
+```
+$ curl -O https://raw.githubusercontent.com/$angristan/openvpn-install/master/openvpn-install.sh
+$ chmod +x openvpn-install.sh
+```
+
+and run it using 
+```
+$ ./openvpn-install.sh
+```
+
+and for setuping the rules, we will use this script :
+
+![](https://i.imgur.com/MvnbLzC.png)
