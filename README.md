@@ -102,13 +102,8 @@ But, you'll need to make some changes to the iptables rules.
 ](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TransparentProxy#WARNING)
 
 
-First of all, add these 2 Environment variables
-
-```
-$ export IPTABLES=/sbin/iptables
-$ export OVPN=tun0
-$ export VPN_IP=$(ip r | grep "tun" | awk '{print $9}')
-```
+First of all, add these 3 Environment variables
+![](https://i.imgur.com/x9p07gZ.png)
 And the iptables rules :
 
 ![](https://i.imgur.com/VYDJ15N.png)
