@@ -44,7 +44,7 @@ starting with tor config file `torrc` / (`/etc/tor/torrc`)
 and now the `Dockerfile`
 
 ```
-FROM debian:latest
+FROM alpine:latest
 RUN apk update && apk add tor
 COPY torrc /etc/tor/torrc
 RUN chown -R tor /etc/tor
@@ -52,7 +52,7 @@ USER tor
 ENTRYPOINT ["tor"]
 CMD ["-f", "/etc/tor/torrc"]
 ```
-![Dockerfile](https://i.imgur.com/oFYwsoP.png)
+![Dockerfile](https://i.imgur.com/PbplMVn.png)
 
 * The containing of the folder should be :
 
@@ -104,6 +104,4 @@ First of all, add these 2 Environment variables
 $ export IPTABLES=/sbin/iptables
 $ export OVPN=tun0
 ```
-
-
 
