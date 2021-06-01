@@ -123,6 +123,7 @@ and run it using
 ```
 $ ./openvpn-install.sh
 ```
+than save the `.ovpn` file
 
 and for setting the rules, we will use this script :
 
@@ -134,5 +135,10 @@ Okey, now let's do this together !
 - 1 - connect to the vps ( don't forget to allow traffic on the used ports)
 - 2 - install all the needed packages
 ![](https://i.imgur.com/wdzg1TG.png)
-- 2 - change the `torrc` file
-![]()
+- 3 - change the `torrc` file
+    ```
+    curl -L https://raw.githubusercontent.com/SofianeHamlaoui/Tor-scripts/main/torrc > /etc/tor/torrc > torrc && sudo mv torrc /etc/tor/torrc
+    ```
+    ![](https://i.imgur.com/6hMsYXP.png)
+
+- 4 - 
