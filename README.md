@@ -152,5 +152,5 @@ Okey, now let's do this together !
 - 6 - Adding the rules
     ```
     $ curl -O https://raw.githubusercontent.com/SofianeHamlaoui/Tor-scripts/main/vpn.sh && chmod +x vpn.sh
-    $ 
+    $ sudo ./vpn.sh
     ```
