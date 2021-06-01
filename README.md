@@ -79,3 +79,7 @@ Now let's test it out!
 ![noproxy](https://i.imgur.com/MHLZKzv.png)
 * With Proxy : a Tor exit
 ![proxy](https://i.imgur.com/po3SHo2.png)
+* You can check with tor website too : 
+`curl --socks5 localhost:9050 --socks5-hostname localhost:9050 -s https://check.torproject.org/ | cat | grep -m 1 Congratulations | xargs`
+
+![](https://i.imgur.com/NQ3TeW9.png)
