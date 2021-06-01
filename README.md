@@ -141,4 +141,4 @@ Okey, now let's do this together !
     ```
     ![](https://i.imgur.com/6hMsYXP.png)
 
-- 4 - 
+- 4 - Using the openvpn script
