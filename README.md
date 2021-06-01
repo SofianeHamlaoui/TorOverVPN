@@ -4,7 +4,7 @@ After a Cyber Security Awareness Training for company X, I thought about sharing
 
 ![header](static/header.png)
 
-### Before doign anything, you can check here some Tor uses/users statistics 05/2021 
+### Before doing anything, you can check here some Tor uses/users statistics 05/2021 
 
 
 * By Users : 
