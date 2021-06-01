@@ -131,5 +131,5 @@ and for setting the rules, we will use this script :
 
 Okey, now let's do this together ! 
 
-- 1 launching the vps ( don't forget to allow traffic on the used ports)
-- 2 
+- 1 connect to the vps ( don't forget to allow traffic on the used ports)
+- 
