@@ -23,7 +23,7 @@ After a Cyber Security Awareness Training for company X, I thought about sharing
 
 ## How TOR over VPN works ? 
 
-![](https://i.imgur.com/rAKyYj9.png)
+![](https://i.imgur.com/sZQfzU9.png)
 
 ## Starting with docker 
 
